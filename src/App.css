@@ -1,0 +1,507 @@
+.mainPage {
+  background-color: bisque;
+  background-image: url(images/background.jpg);
+  background-size: 100% 100%;
+
+}
+p4 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  color: white;
+
+  margin: 5px;
+}
+@media (max-width: 600px) {
+  p4 {
+    width: 60%;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 10px;
+  }
+  .mainPagefront {
+    flex-direction: column;
+  }
+  .rectangle{
+min-width: 95%;
+  }
+}
+
+.mainPagefront {
+height: 100vh;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  overflow-y: scroll;
+
+}
+
+.rectangle {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: orange;
+  margin: 10px;
+  position: relative;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  font-family: fantasy;
+}
+.rectangle1 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.rectangleCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  border-radius: 23px;
+  position: absolute;
+  left: -10px;
+  background-color: red;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+.rectangleCircle1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  border-radius: 23px;
+  position: absolute;
+  right: -10px;
+  background-color: blue;
+  background-image: url(images/correct.jpg);
+  background-size: 100% 100%;
+}
+
+@media (max-width: 600px) {
+  .coverPage {
+    min-width: 90%;
+   }
+   .coverPage1 {
+    min-width: 90%;
+    flex-basis: 20%;
+    }
+}
+.coverPage {
+
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin: 10px;
+  flex-basis: 50%;
+}
+.coverPage1 {
+
+  flex-direction: column;
+  
+margin: 10px;
+
+  }
+
+.mainPageview {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-width: 3px;
+  border-top-color: orange;
+  border-top-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: orange;
+  border-bottom-style: solid;
+  background-color: rgb(220, 245, 228);
+  opacity: 0.5;
+  position: relative;
+  flex-direction: row;
+}
+vl {
+  border-left: 6px solid orange;
+  height: 100%;
+}
+
+.textIn {
+  line-height: 20px;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.myImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: orange;
+  border-width: 3px;
+}
+p1 {
+  font-style: oblique;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-indent: 20px;
+}
+.nav {
+  color: black;
+  font-style: normal;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logoText {
+  color: brown;
+  font-style: normal;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+
+text {
+  margin: 15px;
+  font-size: 24px;
+  line-height: 6px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: white;
+}
+.frontTextview {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+text1 {
+  display: flex;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 2px;
+
+  color: white;
+  margin: 10px 10px 10px 10px;
+}
+.webFroncon {
+  background-image: url(images/webfront.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 30%;
+  position: absolute;
+  top: 0px;
+}
+
+.myImagefront {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: orange;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -70px;
+}
+
+@media (max-width: 600px) {
+  .mainPagefront {
+    flex-direction: column;
+  }
+}
+.profilePictContainer {
+  height: 79vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: row;
+  margin: 20px;
+}
+.MyprofilePict {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: brown;
+  margin-right: 10px 10px 10px 10px;
+  flex-direction: row;
+}
+p {
+  font-style: oblique;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-indent: 20px;
+}
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  font-style: normal;
+  margin: 0 auto;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+  font-weight: bold;
+}
+headr.a {
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+headr.b {
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: normal;
+  color: blue;
+}
+headr.c {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.profileData {
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.profileDetailed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+  margin: 20px;
+}
+.profileDetailed1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+  margin: 20px;
+}
+
+.profileData1 {
+  line-height: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+headr.d {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2;
+}
+headr.e {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 30px;
+  line-height: 1.5;
+}
+headr.f {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 30px;
+  line-height: 1.5;
+}
+li {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 30px;
+  padding-top: 1px;
+  line-height: 1.5;
+}
+.mainMenuLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: bold;
+  color: blue;
+  text-align: start;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.extraDiv {
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: antiquewhite;
+  margin: 10px;
+}
+.menuContainer {
+  max-width: 1400px;
+  margin: 50px 50px 0 50px;
+}
+
+@media (min-width: 900px) {
+  .menuContainer {
+    justify-content: center;
+
+    display: flex;
+ 
+  }
+}
+.topNav {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  background: transparent;
+}
+.bottomNav {
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  position: absolute;
+  bottom: -50px;
+  left: 10px;
+}
+
+.bottomNavContent {
+  height: 65px;
+  width: 65px;
+
+  margin: auto 80px auto 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.bottomNavIcon {
+  height: 40px;
+  width: 50px;
+  margin-bottom: 5px;
+}
+.bottomNavlabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1px;
+  font-style: normal;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.profileCon {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  overflow-y: scroll;
+}
+.portfolioCon {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  overflow-y: scroll;
+}
+.portfolioContent {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: azure;
+  border-radius: 10px;
+  margin: 20px;
+  flex-wrap: nowrap;
+}
+@media (max-width: 600px) {
+  .portfolioContent {
+    min-width: 90%;
+  }
+}
+.portfolioImage {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  opacity: 0.5px;
+  filter: alpha(opacity=50);
+}
+.portfolioImage1 {
+  height: 150px;
+  width: 280px;
+  margin: 10px;
+  opacity: 0.5px;
+  filter: alpha(opacity=50);
+}
+.portfolioImage2 {
+  height: 400px;
+  width: 280px;
+  margin: 10px;
+  opacity: 0.5px;
+  filter: alpha(opacity=50);
+}
+p2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-indent: 20px;
+  margin: 25px;
+}
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  font-style: normal;
+  margin: 0 auto;
+  font-size: 18px;
+  font-style: normal;
+  color: black;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+.rectangleMenu {
+  padding: 2px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  flex-basis: 25%;
+  animation: mymove2 2s;
+  animation-iteration-count: 1;
+}
