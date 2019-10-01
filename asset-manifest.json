@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/web-porfolio/static/css/main.657cae96.chunk.css",
+    "main.js": "/web-porfolio/static/js/main.ed23b681.chunk.js",
+    "main.js.map": "/web-porfolio/static/js/main.ed23b681.chunk.js.map",
+    "runtime~main.js": "/web-porfolio/static/js/runtime~main.26dc3e57.js",
+    "runtime~main.js.map": "/web-porfolio/static/js/runtime~main.26dc3e57.js.map",
+    "static/css/2.266e55a5.chunk.css": "/web-porfolio/static/css/2.266e55a5.chunk.css",
+    "static/js/2.1326860d.chunk.js": "/web-porfolio/static/js/2.1326860d.chunk.js",
+    "static/js/2.1326860d.chunk.js.map": "/web-porfolio/static/js/2.1326860d.chunk.js.map",
+    "index.html": "/web-porfolio/index.html",
+    "precache-manifest.b25ae2854c665b4ef393a4a825b144d3.js": "/web-porfolio/precache-manifest.b25ae2854c665b4ef393a4a825b144d3.js",
+    "service-worker.js": "/web-porfolio/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/web-porfolio/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.657cae96.chunk.css.map": "/web-porfolio/static/css/main.657cae96.chunk.css.map",
+    "static/media/All in One capture1.PNG": "/web-porfolio/static/media/All in One capture1.948bc7e1.PNG",
+    "static/media/Devpict.jpg": "/web-porfolio/static/media/Devpict.989a3135.jpg",
+    "static/media/Reactntivescreen1.jpg": "/web-porfolio/static/media/Reactntivescreen1.2d73407f.jpg",
+    "static/media/pricing.jpg": "/web-porfolio/static/media/pricing.0de5c36b.jpg",
+    "static/media/webdesign.jpg": "/web-porfolio/static/media/webdesign.44766dd7.jpg"
+  }
+}
